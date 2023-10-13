@@ -10,6 +10,7 @@ public class Hostel {
         HostelMembers[] vect = new HostelMembers[rooms];
         for (int i = 0; i <vect.length; i++){
             scan.nextLine();
+            System.out.println("Rent #" + i + ":");
             System.out.println("Name: ");
             String name = scan.nextLine();
             System.out.println("Email: ");
